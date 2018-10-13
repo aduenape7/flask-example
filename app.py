@@ -6,8 +6,8 @@ from flask_login import login_user, logout_user, login_required
 
 from flask_pymongo import PyMongo
 
-from .forms import ProductForm, LoginForm
-from .models import User
+from forms import ProductForm, LoginForm
+from models import User
 
 from bson.objectid import ObjectId
 import json
